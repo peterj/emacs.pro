@@ -28,7 +28,7 @@ jobs:
       - name: Deploy
         uses: appleboy/scp-action@master
         with:
-          sources: "public/*,resources/*"
+          source: "public/*,resources/*"
           target: "/home/opc/www"
           host: ${{ secrets.HOST }}
           key: ${{ secrets.PRIVATE_KEY }}
