@@ -31,5 +31,5 @@ jobs:
           sources: "public/*,resources/*"
           target: "/home/opc/www"
           host: ${{ secrets.HOST }}
-          privateKey: ${{ secrets.PRIVATE_KEY }}
+          key: ${{ secrets.PRIVATE_KEY }}
           username: ${{ secrets.USERNAME }}
