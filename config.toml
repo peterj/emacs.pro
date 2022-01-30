@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://emacs.pro/"
 title = "johndoe"
 theme = "hugo-coder"
 languageCode = "en"
